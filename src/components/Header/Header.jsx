@@ -4,10 +4,12 @@ import "./header.css";
 const Header = () => {
   return (
     <section className="container header header__container">
+      <h2 className="text-light">Hello, I'm Joseph</h2>
       <h1>
-        I enjoy <span>building</span> and <span>designing</span> for the web.
+        I enjoy <span className="span">building</span> and{" "}
+        <span className="span">designing</span> for the web.
       </h1>
-      <button className="btn btn-primary ">Tell Me More</button>
+      <button className="btn btn-primary ">Tell me more</button>
     </section>
   );
 };
