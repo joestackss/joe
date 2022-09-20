@@ -1,7 +1,7 @@
 .header {
-   
-    padding-top: 7em;
+    display: flex;
     overflow: hidden;
+    align-items: center;
     
 }
 
@@ -15,12 +15,17 @@
     padding-bottom: var(--padding-bottom-lg);
 }
 
+.header h2 {
+    padding-bottom: var(--padding-bottom-lg);
+    font-weight: 400;
+    color: var(--color-white);
+}
+
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .header {
         height: 68vh;
-        padding-top: 5em;
     }
 } 
 

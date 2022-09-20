@@ -22,8 +22,8 @@
 
   --transition: all 400ms ease;
   --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
+  --container-width-md: 90%;
+  --container-width-sm: 95%;
 
   --padding-bottom-lg: 3rem;
 }
@@ -72,7 +72,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h1 {
@@ -157,7 +157,7 @@ img {
 /* MEDIA QUERIES TABLETS */
 @media screen and (max-width: 1024px) {
   * {
-    font-size: .85rem;
+    font-size: .9rem;
   }
 
 
@@ -173,6 +173,14 @@ img {
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .span {
+    font-size: 4rem;
+  }
 
   .container {
     width: var(--container-width-sm);
