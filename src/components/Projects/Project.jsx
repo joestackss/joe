@@ -47,15 +47,14 @@ const Project = () => {
         <div className="card-col">
           <img src="react-emoji-search.png" alt="" className="img-div" />
           <div className="flex flex-between">
-            <h3>React Emoji Search </h3>
+            <h3>React Emoji </h3>
             <div>
               <BiLinkExternal className="icons" />
               <BsGithub className="icons" />
             </div>
           </div>
           <p className="paragraph">
-            1800+ emojis at your fingertips. Ready-to-use with just a simple
-            copy+paste.
+            1800+ emojis at your fingertips. Ready-to-use with just copy/paste
           </p>
           <div className="flex flex-wrap">
             <p className="btn-tag">React</p>
@@ -64,6 +63,7 @@ const Project = () => {
           </div>
         </div>
       </div>
+      <button className="btn btn-primary">View All</button>
     </section>
   );
 };

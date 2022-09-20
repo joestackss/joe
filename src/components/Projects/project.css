@@ -91,9 +91,31 @@
     border: 1px solid blue;
 }
 
+.project button {
+    margin-top: 3em;
+    width: 70%;
+}
+
+
 
 /* MEDIA QUERIES TABLETS */
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+
+    .card-main {
+        flex-direction: column;
+    }
+
+    .card-col {
+        width: 100%;
+        gap: 10px;
+        margin-bottom: 4em;
+    }
+
+    .paragraph {
+        color: var(--color-light);
+    }
+
+}
 
 
 /* MEDIA QUERIES (SMALL DEVICES) */
