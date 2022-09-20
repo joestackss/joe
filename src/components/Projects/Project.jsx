@@ -21,7 +21,7 @@ const Project = () => {
               <BsGithub className="icons" />
             </div>
           </div>
-          <p>All the resources you will need to get a boost into economics.</p>
+          <p className="paragraph">All the resources you will need to get a boost into economics.</p>
           <div className="flex flex-wrap">
             <p className="btn-tag ">React</p>
             <p className="btn-tag">Javascript</p>
@@ -37,23 +37,23 @@ const Project = () => {
               <BsGithub className="icons" />
             </div>
           </div>
-          <p>Beautiful HTML templates ready-made for your next landing page.</p>
+          <p className="paragraph">Beautiful HTML templates ready-made for your next landing page.</p>
           <div className="flex flex-wrap">
             <p className="btn-tag">React</p>
             <p className="btn-tag">Javascript</p>
             <p className="btn-tag">CSS</p>
           </div>
-        </div>
+        </div> 
         <div className="card-col">
           <img src="react-emoji-search.png" alt="" className="img-div" />
           <div className="flex flex-between">
-            <h3>React Emoji Search</h3>
+            <h3>React Emoji Search </h3>
             <div>
               <BiLinkExternal className="icons" />
               <BsGithub className="icons" />
             </div>
           </div>
-          <p>
+          <p className="paragraph">
             1800+ emojis at your fingertips. Ready-to-use with just a simple
             copy+paste.
           </p>

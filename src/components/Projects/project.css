@@ -44,6 +44,15 @@
     max-width: 100px;
 }
 
+.project .btn-tag:hover {
+    background-color: var(--color-white);
+    padding: .5em .7em;
+    border-radius: 10px;
+    margin-right: 1em;
+    max-width: 100px;
+    color: var(--color-bg-variant);
+}
+
 .card-col {
     width: 31%;
     gap: 10px;
@@ -54,10 +63,16 @@
     border: 1px solid var(--color-bg-variant);
     padding: .4em;
     border-radius: 10px;
+    margin-bottom: 1em;
 }
 
 .project .icons {
-    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.3rem;
+}
+
+.project .icons:hover {
+    color: var(--color-primary);
 }
 
 .project>div p {
@@ -65,6 +80,10 @@
     margin: 0;
     margin-bottom: 1em;
     text-align: left;
+}
+
+.paragraph {
+    color: var(--color-light);
 }
 
 
@@ -87,6 +106,10 @@
         width: 100%;
         gap: 10px;
         margin-bottom: 4em;
+    }
+
+    .paragraph {
+        color: var(--color-light);
     }
 
 }
