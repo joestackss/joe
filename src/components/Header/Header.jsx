@@ -3,7 +3,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <section className="container header header__container">
+    <section id="header" className="container header header__container">
       <h2 className="text-light">Hello, I'm Joseph</h2>
       <h1>
         I enjoy <span className="span">building</span> and{" "}

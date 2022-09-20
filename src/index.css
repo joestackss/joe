@@ -87,6 +87,13 @@ h2 {
   line-height: none;
 }
 
+h3 {
+  font-size: 1.5rem;
+  color: var(--color-white);
+  line-height: 2;
+  font-weight: 600;
+}
+
 
 section {
   margin-top: 8rem;
