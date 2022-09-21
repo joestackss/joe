@@ -54,6 +54,10 @@ body {
   margin-bottom: 4em;
 }
 
+.margin-bottom-md {
+  margin-bottom: 2em;
+}
+
 .flex {
   display: flex;
   align-items: center;

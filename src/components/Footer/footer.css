@@ -11,6 +11,25 @@
     padding-bottom: 1em;
 }
 
+.footer .btn {
+    display: inline-block;
+    color: var(--color-bg);
+    padding: 0.95rem 1.4rem;
+    border-radius: 1.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.footer .btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
 .footer-col {
     display: flex;
     margin: 0 auto;
@@ -45,13 +64,13 @@ footer ul {
 
 footer li {
     margin-bottom: 2em;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 footer a {
     text-decoration: none;
     color: #fff;
-    font-weight: 300;
+    font-weight: 500;
     padding: .25em 0;
 }
 
@@ -80,7 +99,7 @@ footer a:focus {
 }
 
 .footer-end .col-2 {
-    width: 30%; 
+    width: 30%;
 }
 
 .footer-end .col-2 img {
@@ -94,35 +113,14 @@ footer a:focus {
 
 
 @media (max-width:800px) {
-    html {
-        font-size: .8rem;
-    }
-
     .footer {
-        background-color: #0D0D2B;
-        background-blend-mode: multiply;
-        background-position: center;
-        background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 5em 0 6em;
-        color: #fff;
-
-    }
-
-    .footer h2 {
-        font-weight: 700;
-        margin: 0;
-        padding: 0;
-        padding-bottom: 1.8em;
     }
 
     .footer-col {
-        display: flex;
-        margin: 0 auto;
-        width: 100%;
         flex-direction: column;
     }
 
@@ -149,73 +147,20 @@ footer a:focus {
         text-align: center;
     }
 
-    .footer h3 {
-        padding: 0 0 1em;
-        margin: 0;
-    }
-
-
-    footer ul {
-        list-style: none;
-        padding: 0;
-        /* display: flex;
-    justify-content: end; */
-    }
-
-    footer li {
-        margin-bottom: 1em;
-        font-size: .9rem;
-
-    }
-
-    footer a {
-        text-decoration: none;
-        color: #fff;
-        font-weight: 300;
-        padding: .25em 0;
-    }
-
-    footer a:hover,
-    footer a:focus {
-        color: #3671E9;
-    }
-
-    .crappo-logo {
-        padding: 0;
-        margin: 0;
-    }
-
-    .brand-logo {
-        max-width: 72px;
-        margin-right: .6em;
-    }
-
-
     .footer-end {
-        display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin: 0 auto;
-        max-width: 1202px;
-        padding-top: 5em;
     }
 
     .footer-end .col-1 {
         width: 100%;
         text-align: center;
-        padding-bottom: 4em;
+        padding-bottom: 1em;
     }
 
     .footer-end .col-2 {
         width: 100%;
-        text-align: center;
-    }
-
-    .footer-end .col-2 img {
-        text-align: center;
-        margin: 0 .9em;
+        justify-content: center;
     }
 
 }

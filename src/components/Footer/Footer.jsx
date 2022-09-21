@@ -39,8 +39,8 @@ function Footer() {
               </ul>
             </div>
             <div className="col-4">
-              <h2>Support my work</h2>
-              <button className="btn btn-primary">Buy me coffee</button>
+              <h2 className="text-white">Support my work</h2>
+              <button className="btn btn-primary margin-bottom-md">Buy me coffee</button>
               <p>I appreciate your support very much! 💙</p>
             </div>
           </div>
@@ -54,9 +54,6 @@ function Footer() {
           </div>
 
           <div className="col-2 flex">
-            <a href="#">
-              <img src="facebook.svg" alt="facebook" loading="lazy" />
-            </a>
             <a href="#">
               <img src="instagram.svg" alt="instagram" loading="lazy" />
             </a>
