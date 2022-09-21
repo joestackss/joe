@@ -50,6 +50,10 @@ body {
   color: var(--color-primary);
 }
 
+.margin-bottom-lg {
+  margin-bottom: 4em;
+}
+
 
 
 
@@ -102,13 +106,7 @@ p {
 
 section {
   margin-top: 8rem;
-  padding-bottom: 7rem;
-}
-
-section>h2,
-section>h5 {
-  text-align: center;
-  color: var(--color-light);
+  padding: 3rem 0;
 }
 
 section>h2 {
