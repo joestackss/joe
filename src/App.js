@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Project from "./components/Projects/Project";
@@ -12,6 +13,7 @@ function App() {
       <Project />
       <Tools />
       <Testimonials />
+      <Footer />
     </div>
   );
 }

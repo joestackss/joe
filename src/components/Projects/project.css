@@ -55,6 +55,7 @@
 
 .project .paragraph {
     color: var(--color-light);
+    font-weight: 400;
 }
 
 
@@ -77,7 +78,7 @@
     }
 
     .project .card-col {
-        width: 100%;
+        width: 90%;
         gap: 10px;
         margin-bottom: 4em;
     }
@@ -96,12 +97,7 @@
     }
 
     .project .card-col {
-        width: 100%;
-        gap: 10px;
-    }
-
-    .project .paragraph {
-        color: var(--color-light);
+        width: 95%;
     }
 
 }
