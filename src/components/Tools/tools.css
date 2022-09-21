@@ -13,7 +13,14 @@
 .tools .inner-col-1 {
     width: 25%;
     margin-bottom: 4em;
+    transition: var(--transition);
 }
+
+.tools .inner-col-1:hover {
+    transform: scale(1.2);
+}
+
+
 
 .tools h2 {
     text-align: center;
@@ -41,11 +48,11 @@
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
-    
+
     .tools .inner-col-1 {
         width: 30%;
         margin: 0 auto;
         margin-bottom: 4em;
     }
-    
+
 }
