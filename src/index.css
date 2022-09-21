@@ -23,7 +23,7 @@
   --transition: all 400ms ease;
   --container-width-lg: 75%;
   --container-width-md: 90%;
-  --container-width-sm: 95%;
+  --container-width-sm: 90%;
 
   --padding-bottom-lg: 3rem;
 }
@@ -54,6 +54,35 @@ body {
   margin-bottom: 4em;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 
 
 
@@ -66,7 +95,7 @@ body {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 
@@ -93,10 +122,10 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
-  color: var(--color-white);
+  
   line-height: 2;
   font-weight: 600;
-} 
+}
 
 p {
   font-size: 1.05rem;
