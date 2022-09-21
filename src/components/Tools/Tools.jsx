@@ -21,6 +21,10 @@ const Tools = () => {
           <h3>Javascript</h3>
         </div>
         <div className="inner-col-1">
+          <img src="react-js-icon.svg" />
+          <h3>React</h3>
+        </div>
+        <div className="inner-col-1">
           <img src="sass-original.svg" />
           <h3>Sass</h3>
         </div>
@@ -50,6 +54,11 @@ const Tools = () => {
         <div className="inner-col-1">
           <img src="figma-original.svg" />
           <h3>Figma</h3>
+        </div>
+
+        <div className="inner-col-1">
+          <img src="adobe-photoshop-icon.svg" />
+          <h3>Photoshop</h3>
         </div>
       </div>
     </section>
