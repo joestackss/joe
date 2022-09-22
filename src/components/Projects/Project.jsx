@@ -15,7 +15,7 @@ const Project = () => {
       <div className="card-main margin-bottom-lg ">
         <div className="card-col">
           <a href="https://crappo-app.netlify.app/" target="_blank">
-            <img src="yei-learn.png" alt="" className="img-div" />
+            <img src="crappo.png" alt="" className="img-div" />
           </a>
           <div className="flex flex-between">
             <h3>Crappo App</h3>
@@ -34,7 +34,9 @@ const Project = () => {
           </div>
         </div>
         <div className="card-col">
-          <img src="buildfaster.png" alt="" className="img-div" />
+          <a href="https://trasferng.netlify.app/" target="_blank">
+            <img src="thub.png" alt="" className="img-div" />
+          </a>
           <div className="flex flex-between">
             <h3>TransferhubNG</h3>
             <div>
@@ -53,7 +55,9 @@ const Project = () => {
           </div>
         </div>
         <div className="card-col">
-          <img src="react-emoji-search.png" alt="" className="img-div" />
+          <a href="https://passworth.netlify.app/" target="_blank">
+            <img src="generator.png" alt="" className="img-div" />
+          </a>
           <div>
             <div className="flex flex-between">
               <h3>Passworth </h3>
@@ -75,8 +79,10 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="card-col ">
-          <img src="yei-learn.png" alt="" className="img-div" />
+        <div className="card-col">
+          <a href="https://vadeapp.netlify.app/" target="_blank">
+            <img src="vade.png" alt="" className="img-div" />
+          </a>
           <div className="flex flex-between ">
             <h3>Vade</h3>
             <div>
@@ -94,7 +100,9 @@ const Project = () => {
           </div>
         </div>
         <div className="card-col">
-          <img src="buildfaster.png" alt="" className="img-div" />
+          <a href="https://roleplayingame.netlify.app/" target="_blank">
+            <img src="role-play.png" alt="" className="img-div" />
+          </a>
           <div className="flex flex-between">
             <h3>Role Play Game</h3>
             <div>
@@ -113,7 +121,9 @@ const Project = () => {
           </div>
         </div>
         <div className="card-col">
-          <img src="react-emoji-search.png" alt="" className="img-div" />
+          <a href="https://globalconvertunits.netlify.app/" target="_blank">
+            <img src="unitcal.png" alt="" className="img-div" />
+          </a>
           <div className="flex flex-between">
             <h3>Global Converter </h3>
             <div>

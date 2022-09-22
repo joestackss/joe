@@ -30,12 +30,11 @@
 @media screen and (max-width: 1024px) {
     .header__container {
         min-height: 100vh;
+        margin: .1em auto 0;
     }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
-    body {
-
-    }
+ 
 }

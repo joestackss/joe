@@ -15,7 +15,7 @@ const Navs = () => {
           <div className="brand-and-toggler flex flex-between nav-width">
             <a href="#" className="navbar-brand">
               {/* <img src="logo.svg" alt="logo" /> */}
-              <h2>Joestackks</h2>
+              <h2>Joestackss</h2>
             </a>
             <div
               type="button"

@@ -236,7 +236,7 @@ img {
 
   a {
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--color-bg);
     transition: var(--transition);
   }
