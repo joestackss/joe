@@ -9,12 +9,13 @@ const Navs = () => {
   };
 
   return (
-    <nav  className="navbar w-100 flex">
+    <nav className="navbar w-100 flex">
       <div className="containers w-100">
         <div className="navbar-content flex fw-3">
           <div className="brand-and-toggler flex flex-between nav-width">
             <Link to="/" className="navbar-brand">
-              <img src="logo.svg" alt="logo" />
+              {/* <img src="logo.svg" alt="logo" /> */}
+              <h2>Joestackks</h2>
             </Link>
             <div
               type="button"
