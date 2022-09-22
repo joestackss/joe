@@ -38,13 +38,13 @@ const Navs = () => {
             <div className="navbar-collapse-content">
               <ul className="navbar-nav nav-width-1">
                 <li className="text-black">
-                  <Link to="#product">Porfolio</Link>
+                  <Link to="#projects">Project</Link>
                 </li>
                 <li className="text-black">
-                  <Link to="#feature">Testimonial</Link>
+                  <Link to="#testimonial">Testimonial</Link>
                 </li>
                 <li className="text-black">
-                  <Link to="#about">Contact</Link>
+                  <Link to="#contact">Contact</Link>
                 </li>
                 <li className="text-black">
                   <Link to="/">Login</Link>
