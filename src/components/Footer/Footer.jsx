@@ -4,7 +4,7 @@ import { BsInstagram, BsTwitter, BsGithub, BsLinkedin } from "react-icons/bs";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id="footer" className="footer">
       <section className="container flex flex-wrap flex-between">
         <div className="footer-col">
           <div className="col-1 crappo-logo">

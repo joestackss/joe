@@ -3,7 +3,7 @@ import "./testimonials.css";
 
 const Testimonials = () => {
   return (
-    <section className="testimonial container testimonial__container">
+    <section id="testimonial" className="testimonial container testimonial__container">
       <div className="flex flex-between">
         <h2>Why people love my work!</h2>
         <div className="line-div"></div>

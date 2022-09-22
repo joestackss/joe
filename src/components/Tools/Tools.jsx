@@ -3,7 +3,7 @@ import "./tools.css";
 
 const Tools = () => {
   return (
-    <section id="about" className="container tools__container tools">
+    <section id="tools" className="container tools__container tools">
       <h2 className="text-white">
         I got the experience. Here is my toolbelt for success.
       </h2>
