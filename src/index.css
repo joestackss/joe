@@ -152,12 +152,12 @@ section>h2 {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-white);
   transition: var(--transition);
 }
 
 a:hover {
-  color: var(--color-white);
+  color: var(--color-primary);
 }
 
 .btn {
@@ -231,5 +231,16 @@ img {
 
   section>h2 {
     margin-bottom: 2rem;
+  }
+
+  a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--color-bg);
+    transition: var(--transition);
+  }
+  
+  a:hover {
+    color: var(--color-bg);
   }
 }

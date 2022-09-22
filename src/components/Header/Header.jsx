@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   return (
     <section id="header" className="container header header__container">
-      <div>
+      <div className="heading">
         <h2>Hello, I'm Joseph</h2>
         <h1>
           I enjoy <span className="span">building</span> and{" "}

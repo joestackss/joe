@@ -13,7 +13,6 @@ import Navs from "./components/Navbar/Navs";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Router>
         <Navs />
         <Routes>

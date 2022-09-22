@@ -10,7 +10,7 @@ const Navs = () => {
 
   return (
     <nav className="navbar w-100 flex">
-      <div className="containers w-100">
+      <section className="containers w-100">
         <div className="navbar-content flex fw-3">
           <div className="brand-and-toggler flex flex-between nav-width">
             <Link to="/" className="navbar-brand">
@@ -58,7 +58,7 @@ const Navs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </nav>
   );
 };
