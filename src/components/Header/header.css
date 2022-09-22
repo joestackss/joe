@@ -3,12 +3,12 @@
     overflow: hidden;
     align-items: center;
     padding: 6em 0;
-    
+
 }
 
 .header__container {
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     margin: 4em auto 0;
 }
@@ -22,18 +22,20 @@
     padding-bottom: var(--padding-bottom-lg);
     font-weight: 400;
     color: var(--color-white);
-   
+
 }
 
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-   
-} 
+    .header__container {
+        min-height: 100vh;
+    }
+}
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
-    .header__container {
-        margin: 9em auto;
+    body {
+
     }
 }

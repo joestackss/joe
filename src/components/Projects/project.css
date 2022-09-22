@@ -21,10 +21,19 @@
     color: var(--color-bg-variant);
 }
 
+.card-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 .project .card-col {
     width: 31%;
     gap: 10px;
-
+    margin-bottom: 3em;
 }
 
 .img-div {
@@ -80,19 +89,11 @@
 
 /* MEDIA QUERIES TABLETS */
 @media screen and (max-width: 1024px) {
-
-    .project .card-main {
-        flex-direction: column;
-    }
-
+    
     .project .card-col {
-        width: 90%;
+        width: 45%;
         gap: 10px;
-        margin-bottom: 4em;
-    }
-
-    .project .paragraph {
-        color: var(--color-light);
+        margin-bottom: 3em;
     }
 
 }

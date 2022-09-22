@@ -125,7 +125,7 @@ footer a:focus {
 
 
 
-@media (max-width:800px) {
+@media (max-width:720px) {
     .footer {
         display: flex;
         flex-direction: column;
