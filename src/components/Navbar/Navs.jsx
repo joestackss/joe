@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navigation.css";
-// import { FaTwitter, FaSkype, FaVimeoV } from "react-icons/fa";
-import { FaRegUser, FaShoppingCart } from "react-icons/fa";
 
 const Navs = () => {
   const [navToggle, setNavToggle] = useState(false);
@@ -11,12 +9,12 @@ const Navs = () => {
   };
 
   return (
-    <nav className="navbar w-100 flex">
-      <div className="container w-100">
-        <div className="navbar-content flex fw-7">
+    <nav  className="navbar w-100 flex">
+      <div className="containers w-100">
+        <div className="navbar-content flex fw-3">
           <div className="brand-and-toggler flex flex-between nav-width">
-            <Link to="/" className="navbar-brand fs-26">
-              <img src="merglow-logo.svg" alt="logo" />
+            <Link to="/" className="navbar-brand">
+              <img src="logo.svg" alt="logo" />
             </Link>
             <div
               type="button"
@@ -39,23 +37,21 @@ const Navs = () => {
             <div className="navbar-collapse-content">
               <ul className="navbar-nav nav-width-1">
                 <li className="text-black">
-                  <Link to="/Shop">Shop</Link>
+                  <Link to="#product">Porfolio</Link>
                 </li>
                 <li className="text-black">
-                  <Link to="/Science">Science</Link>
+                  <Link to="#feature">Testimonial</Link>
                 </li>
                 <li className="text-black">
-                  <Link to="/About Us">About Us</Link>
+                  <Link to="#about">Contact</Link>
+                </li>
+                <li className="text-black">
+                  <Link to="/">Login</Link>
                 </li>
               </ul>
-              <div className="flex navbar-btns">
-                <button type="button" className="btn">
-                  <FaRegUser /> <span>Login</span>
-                </button>
-              </div>
-              <div className="flex navbar-btns">
-                <button type="button" className="btn">
-                  <FaShoppingCart /> <span>Cart</span>
+              <div className="flex navbar-btns ">
+                <button type="button" className="btn btn-primary">
+                  <span>Get In Touch</span>
                 </button>
               </div>
             </div>
