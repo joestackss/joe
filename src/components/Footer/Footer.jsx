@@ -53,7 +53,7 @@ function Footer() {
             <button className="btn btn-primary margin-bottom-md">
               Buy me coffee
             </button>
-            <p>I appreciate your support very much! 💙</p>
+            <p>I appreciate your support! 💙</p>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ function Footer() {
           <div className="col-1">
             <p>
               © <span id="dateHtml">{new Date().getFullYear()}</span>{" "}
-              Joestackss. All rights reserved
+              Joestackss. All rights reserved - <span className="text-blue">Made by Joestackss</span>
             </p>
           </div>
 

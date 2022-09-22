@@ -121,7 +121,7 @@ h1 {
 
 h2 {
   font-size: 1.7rem;
-  color: var(--color-light);
+  color: var(--color-white);
   line-height: none;
 }
 
@@ -189,6 +189,11 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+.text-blue {
+  color: var(--color-primary);
+  cursor: pointer;
 }
 
 

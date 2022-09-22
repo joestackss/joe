@@ -12,15 +12,12 @@
     padding: .5em .7em;
     border-radius: 10px;
     margin-right: 1em;
-    max-width: 100px;
+   
+    width: max-content;
 }
 
 .project .btn-tag:hover {
     background-color: var(--color-white);
-    padding: .5em .7em;
-    border-radius: 10px;
-    margin-right: 1em;
-    max-width: 100px;
     color: var(--color-bg-variant);
 }
 
@@ -35,6 +32,11 @@
     padding: .4em;
     border-radius: 10px;
     margin-bottom: 1em;
+    transition: var(--transition);
+}
+
+.img-div:hover {
+    transform: translateY(-10%);
 }
 
 .project .icons {
@@ -66,7 +68,7 @@
 .project button {
     margin-top: 3em;
     width: 70%;
-    
+
 }
 
 .buttonDiv {

@@ -10,6 +10,7 @@ import Tools from "./components/Tools/Tools";
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Header />
       <Project />
       <Tools />
