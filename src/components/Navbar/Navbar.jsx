@@ -9,7 +9,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
 
   return (
-    <nav>
+    <nav className="nav1">
       <a
         href="#"
         onClick={() => setActiveNav("#")}
