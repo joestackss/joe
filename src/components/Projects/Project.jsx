@@ -5,7 +5,7 @@ import "./project.css";
 
 const Project = () => {
   return (
-    <section className="container project project__container">
+    <section id="projects" className="container project project__container">
       <div className="flex flex-between">
         <h2>Here are a few of my favorite projects.</h2>
         <div className="line-div"></div>
@@ -118,7 +118,8 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <button className="btn btn-primary">View All</button>
+      <div className="buttonDiv"><button className="btn btn-primary">View All</button></div>
+      
     </section>
   );
 };

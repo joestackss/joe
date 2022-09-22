@@ -66,6 +66,11 @@
 .project button {
     margin-top: 3em;
     width: 70%;
+    
+}
+
+.buttonDiv {
+    text-align: center;
 }
 
 

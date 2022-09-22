@@ -1,7 +1,8 @@
-import React from "react";
-import {Link} from "react-router-dom";
-import { useState } from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
+// import { FaTwitter, FaSkype, FaVimeoV } from "react-icons/fa";
+import { FaRegUser, FaShoppingCart} from "react-icons/fa";
 
 const Navbar = () => {
   const [navToggle, setNavToggle] = useState(false);
@@ -11,11 +12,11 @@ const Navbar = () => {
 
   return (
     <nav className="navbar w-100 flex">
-      <div className="containers w-100">
-        <div className="navbar-content flex fw-3">
+      <div className="container w-100">
+        <div className="navbar-content flex fw-7">
           <div className="brand-and-toggler flex flex-between nav-width">
-            <Link to="/" className="navbar-brand">
-              <img src="logo.svg" alt="logo" />
+            <Link to="/" className="navbar-brand fs-26">
+              <img src="merglow-logo.svg" alt="logo" />
             </Link>
             <div
               type="button"
@@ -38,24 +39,23 @@ const Navbar = () => {
             <div className="navbar-collapse-content">
               <ul className="navbar-nav nav-width-1">
                 <li className="text-black">
-                  <Link to="/">Product</Link>
+                  <Link to="/Shop">Shop</Link>
                 </li>
                 <li className="text-black">
-                  <Link to="/">Feature</Link>
+                  <Link to="/Science">Science</Link>
                 </li>
                 <li className="text-black">
-                  <Link to="/">About</Link>
-                </li>
-                <li className="text-black">
-                  <Link to="/">Contact</Link>
-                </li>
-                <li className="text-black">
-                  <Link to="/">Login</Link>
+                  <Link to="/About Us">About Us</Link>
                 </li>
               </ul>
-              <div className="flex navbar-btns ">
-                <button type="button" className="btn btn-blue">
-                  <span>Register</span>
+              <div className="flex navbar-btns">
+                <button type="button" className="btn">
+                  <FaRegUser /> <span>Login</span>
+                </button>
+                </div>
+                <div className="flex navbar-btns">
+                <button type="button" className="btn">
+                  <FaShoppingCart /> <span>Cart</span>
                 </button>
               </div>
             </div>
