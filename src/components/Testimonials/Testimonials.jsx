@@ -30,7 +30,7 @@ const Testimonials = () => {
               <span className="spans"> - CEO of VisualBonus</span>
             </p>
           </div>
-          <div className="card-col" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="600">
+          <div className="card-col" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300">
             <h3>
               "My vision was executed perfectly. The quality and speed of the
               work was excellent."
