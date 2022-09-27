@@ -1,6 +1,7 @@
 import React from "react";
 import { BiLinkExternal } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
+import { Link } from "react-router-dom";
 import Allprojects from "../Allprojects/Allprojects";
 import "./project.css";
 
@@ -13,35 +14,19 @@ const Project = () => {
       </div>
 
       <div className="card-main margin-bottom-lg ">
-        <div className="card-col">
-          <a href="https://crappo-app.netlify.app/" target="_blank">
-            <img src="crappo.png" alt="" className="img-div" />
-          </a>
-          <div className="flex flex-between">
-            <h3>Crappo App</h3>
-            <div>
-              <BiLinkExternal className="icons" />
-              <BsGithub className="icons" />
-            </div>
-          </div>
-          <p className="paragraph">
-            A web app where people can invest in cryptocurrency.
-          </p>
-          <div className="flex flex-wrap">
-            <p className="btn-tag ">React</p>
-            <p className="btn-tag">Javascript</p>
-            <p className="btn-tag">CSS</p>
-          </div>
-        </div>
-        <div className="card-col">
+        <div className="card-col" >
           <a href="https://trasferng.netlify.app/" target="_blank">
             <img src="thub.png" alt="" className="img-div" />
           </a>
           <div className="flex flex-between">
             <h3>TransferhubNG</h3>
             <div>
-              <BiLinkExternal className="icons" />
-              <BsGithub className="icons" />
+              <a href="https://trasferng.netlify.app/" target="_blank">
+                <BiLinkExternal className="icons" />
+              </a>
+              <a href="https://github.com/joestackss/THubNG" target="_blank">
+                <BsGithub className="icons" />
+              </a>
             </div>
           </div>
           <p className="paragraph">
@@ -62,8 +47,12 @@ const Project = () => {
             <div className="flex flex-between">
               <h3>Passworth </h3>
               <div>
-                <BiLinkExternal className="icons" />
-                <BsGithub className="icons" />
+                <a href="https://passworth.netlify.app/" target="_blank">
+                  <BiLinkExternal className="icons" />
+                </a>
+                <a href="https://github.com/joestackss/Password-Generator" target="_blank">
+                  <BsGithub className="icons" />
+                </a>
               </div>
             </div>
             <div>
@@ -86,12 +75,17 @@ const Project = () => {
           <div className="flex flex-between ">
             <h3>Vade</h3>
             <div>
-              <BiLinkExternal className="icons" />
-              <BsGithub className="icons" />
+              <a href="https://vadeapp.netlify.app/" target="_blank">
+                <BiLinkExternal className="icons" />
+              </a>
+              <a href="https://github.com/joestackss/VADE" target="_blank">
+                {" "}
+                <BsGithub className="icons" />
+              </a>
             </div>
           </div>
           <p className="paragraph">
-            An SPA which measure occupancy, analyze demand & manage curb space.
+          An SPA which measure occupancy, analyze demand {"&"} manage curb space.
           </p>
           <div className="flex flex-wrap">
             <p className="btn-tag ">React</p>
@@ -106,8 +100,12 @@ const Project = () => {
           <div className="flex flex-between">
             <h3>Role Play Game</h3>
             <div>
-              <BiLinkExternal className="icons" />
-              <BsGithub className="icons" />
+              <a href="https://roleplayingame.netlify.app/" target="_blank">
+                <BiLinkExternal className="icons" />
+              </a>
+              <a href="https://github.com/joestackss/Role-Play-Game" target="_blank">
+                <BsGithub className="icons" />
+              </a>
             </div>
           </div>
           <p className="paragraph">
@@ -127,8 +125,12 @@ const Project = () => {
           <div className="flex flex-between">
             <h3>Global Converter </h3>
             <div>
-              <BiLinkExternal className="icons" />
-              <BsGithub className="icons" />
+              <a href="https://globalconvertunits.netlify.app/" target="_blank">
+                <BiLinkExternal className="icons" />
+              </a>
+              <a href="https://github.com/joestackss/Unit-Converter" target="_blank">
+                <BsGithub className="icons" />
+              </a>
             </div>
           </div>
           <p className="paragraph">
@@ -139,11 +141,38 @@ const Project = () => {
             <p className="btn-tag">CSS</p>
           </div>
         </div>
+        <div className="card-col">
+          <a href="https://crappo-app.netlify.app/" target="_blank">
+            <img src="crappo.png" alt="" className="img-div" />
+          </a>
+          <div className="flex flex-between">
+            <h3>Crappo App</h3>
+            <div>
+              <a href="https://crappo-app.netlify.app/" target="_blank">
+                <BiLinkExternal className="icons" />
+              </a>
+              <a href="https://github.com/joestackss/crappo-react" target="_blank">
+                <BsGithub className="icons" />
+              </a>
+            </div>
+          </div>
+          <p className="paragraph">
+            A web app where people can invest in cryptocurrency.
+          </p>
+          <div className="flex flex-wrap">
+            <p className="btn-tag ">React</p>
+            <p className="btn-tag">Javascript</p>
+            <p className="btn-tag">CSS</p>
+          </div>
+        </div>
       </div>
+
       <div className="buttonDiv">
-        <button className="btn btn-primary" type="button">
-          View All
-        </button>
+        <Link to="/allprojects">
+          <button className="btn btn-primary" type="button">
+            View All
+          </button>
+        </Link>
       </div>
     </section>
   );

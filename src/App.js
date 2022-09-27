@@ -1,27 +1,27 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import React from "react";
-import Footer from "./components/Footer/Footer";
-import Contact from "./components/Contact/Contact";
-import Header from "./components/Header/Header";
-import Project from "./components/Projects/Project";
-import Testimonials from "./components/Testimonials/Testimonials";
-import Tools from "./components/Tools/Tools";
 import Navs from "./components/Navbar/Navs";
+import Allprojects from "./components/Allprojects/Allprojects";
+import Home from "./components/Home/Home";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="App">
       <Router>
         <Navs />
-        <Routes></Routes>
+        <Routes>
+          <Route exact path="/" element={<Home />}></Route>
+          <Route path="/allprojects" element={<Allprojects />}></Route>
+        </Routes>
       </Router>
-      <Header />
-      <Project />
-      <Tools />
-      <Testimonials />
-      <Contact />
-      <Footer />
     </div>
   );
 }

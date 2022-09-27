@@ -30,7 +30,7 @@ function Footer() {
             <ul>
               <li>
                 <a href="https://github.com/joestackss" target="_blank">
-                  Github{" "}
+                  Github
                 </a>
               </li>
               <li>
@@ -61,15 +61,24 @@ function Footer() {
           <div className="col-1">
             <p>
               © <span id="dateHtml">{new Date().getFullYear()}</span>{" "}
-              Joestackss. All rights reserved - <span className="text-blue">Made by Joestackss</span>
+              Joestackss. All rights reserved -{" "}
+              <span className="text-blue">Made by Joestackss</span>
             </p>
           </div>
 
           <div className="col-2 flex">
-            <BsInstagram className="icons" />
-            <BsGithub className="icons"/>
-            <BsInstagram className="icons" />
-            <BsLinkedin className="icons" />
+            <a href="https://github.com/joestackss" target="_blank">
+              <BsGithub className="icons" />
+            </a>
+            <a href="https://twitter.com/joestackss " target="_blank">
+              <BsTwitter className="icons" />
+            </a>
+            <a href="https://www.instagram.com/stacksjoeh/" target="_blank">
+              <BsInstagram className="icons" />
+            </a>
+            <a href="https://www.linkedin.com/in/joestackss/" target="_blank">
+              <BsLinkedin className="icons" />
+            </a>
           </div>
         </div>
       </section>

@@ -13,10 +13,12 @@ const Navs = () => {
       <section className="containers w-100">
         <div className="navbar-content flex fw-3">
           <div className="brand-and-toggler flex flex-between nav-width">
-            <a href="#" className="navbar-brand">
-              {/* <img src="logo.svg" alt="logo" /> */}
-              <h2>Joestackss</h2>
-            </a>
+            <Link to="/">
+              <a href="#" className="navbar-brand">
+                {/* <img src="logo.svg" alt="logo" /> */}
+                <h2>Joestackss</h2>
+              </a>
+            </Link>
             <div
               type="button"
               className={`hamburger-menu ${
@@ -51,7 +53,7 @@ const Navs = () => {
                 </li>
               </ul>
               <div className="flex navbar-btns ">
-                <a href="#contact">
+                <a href="mailto: archjo6@gmail.com">
                   <button type="button" className="btn btn-primary">
                     <span>Get In Touch</span>
                   </button>
