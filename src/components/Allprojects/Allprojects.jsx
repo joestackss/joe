@@ -17,7 +17,7 @@ const Allprojects = () => {
         Here are some of my favorite projects over the course of my journey.
       </p>
       <div className="card-main margin-bottom-lg ">
-        <div className="card-col">
+        <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
           <a href="https://trasferng.netlify.app/" target="_blank">
             <img src="thub.png" alt="" className="img-div" />
           </a>
@@ -42,7 +42,7 @@ const Allprojects = () => {
             <p className="btn-tag">CSS</p>
           </div>
         </div>
-        <div className="card-col">
+        <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
           <a href="https://passworth.netlify.app/" target="_blank">
             <img src="generator.png" alt="" className="img-div" />
           </a>
@@ -74,7 +74,7 @@ const Allprojects = () => {
             </div>
           </div>
         </div>
-        <div className="card-col">
+        <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
           <a href="https://vadeapp.netlify.app/" target="_blank">
             <img src="vade.png" alt="" className="img-div" />
           </a>
@@ -100,7 +100,7 @@ const Allprojects = () => {
             <p className="btn-tag">CSS</p>
           </div>
         </div>
-        <div className="card-col">
+        <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
           <a href="https://roleplayingame.netlify.app/" target="_blank">
             <img src="role-play.png" alt="" className="img-div" />
           </a>
@@ -128,7 +128,7 @@ const Allprojects = () => {
             <p className="btn-tag">Html</p>
           </div>
         </div>
-        <div className="card-col">
+        <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
           <a href="https://globalconvertunits.netlify.app/" target="_blank">
             <img src="unitcal.png" alt="" className="img-div" />
           </a>
@@ -154,7 +154,7 @@ const Allprojects = () => {
             <p className="btn-tag">CSS</p>
           </div>
         </div>
-        <div className="card-col">
+        <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
           <a href="https://crappo-app.netlify.app/" target="_blank">
             <img src="crappo.png" alt="" className="img-div" />
           </a>
