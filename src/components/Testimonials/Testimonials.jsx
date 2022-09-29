@@ -40,8 +40,7 @@ const Testimonials = () => {
           >
             <h3>
               "Joseph is my go-to freelancer. I've been working with him for
-              months already and looking forward to continuing our efforts. He
-              knows exactly what to do and he does iit well."
+              months already. He knows exactly what to do and he does it well."
             </h3>
             <p className="paragraph">
               Fay Goldstein
@@ -58,11 +57,8 @@ const Testimonials = () => {
             data-aos-offset="300"
           >
             <h3>
-              "Joseph was a pleasure to work with on my website development
-              project. He was very quick to get changes back to me, and worked
-              well in collaboration to make the website look and function as
-              desired. He is knowledgeable in website development, and
-              provides a wonderful finished product."
+              "Joseph wrote clean codes and worked well in collaboration to make the website look and function as
+              desired."
             </h3>
             <p className="paragraph">
             Uwe Janotta
