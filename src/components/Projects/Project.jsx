@@ -9,19 +9,50 @@ const Project = () => {
   return (
     <section id="projects" className="container project project__container">
       <div className="flex flex-between">
-        <h2 data-aos="fade-up" data-aos-duration="1000" >Here are a few of my favorite projects.</h2>
+        <h2 data-aos="fade-up" data-aos-duration="1000">
+          Here are a few of my favorite projects.
+        </h2>
         <div className="line-div"></div>
       </div>
 
       <div className="card-main margin-bottom-lg ">
         <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
-          <a href="https://trasferng.netlify.app/" target="_blank">
+          <a href="https://www.realtyview.com/" target="_blank">
+            <img src="Realty-View.png" alt="" className="img-div" />
+          </a>
+          <div>
+            <div className="flex flex-between">
+              <h3>Realty View </h3>
+              <div>
+                <a href="https://www.realtyview.com/" target="_blank">
+                  <BiLinkExternal className="icons" />
+                </a>
+                <a href="https://github.com/joestackss" target="_blank">
+                  <BsGithub className="icons" />
+                </a>
+              </div>
+            </div>
+            <div>
+              <p className="paragraph">
+                A SaaS app where Millions Of Property Records can be searched.
+              </p>
+              <div className="flex flex-wrap">
+                <p className="btn-tag">Next.js</p>
+                <p className="btn-tag">Stripe</p>
+                <p className="btn-tag">Firebase</p>
+                <p className="btn-tag">Taiwind</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
+          <a href="https://transferng.vercel.app/" target="_blank">
             <img src="thub.png" alt="" className="img-div" />
           </a>
           <div className="flex flex-between">
             <h3>TransferhubNG</h3>
             <div>
-              <a href="https://trasferng.netlify.app/" target="_blank">
+              <a href="https://transferng.vercel.app/" target="_blank">
                 <BiLinkExternal className="icons" />
               </a>
               <a href="https://github.com/joestackss/THubNG" target="_blank">
@@ -50,7 +81,10 @@ const Project = () => {
                 <a href="https://passworth.netlify.app/" target="_blank">
                   <BiLinkExternal className="icons" />
                 </a>
-                <a href="https://github.com/joestackss/Password-Generator" target="_blank">
+                <a
+                  href="https://github.com/joestackss/Password-Generator"
+                  target="_blank"
+                >
                   <BsGithub className="icons" />
                 </a>
               </div>
@@ -68,7 +102,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="card-col" data-aos="fade-up" data-aos-duration="1000" >
+        <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
           <a href="https://vadeapp.netlify.app/" target="_blank">
             <img src="vade.png" alt="" className="img-div" />
           </a>
@@ -85,7 +119,8 @@ const Project = () => {
             </div>
           </div>
           <p className="paragraph">
-          An SPA which measure occupancy, analyze demand {"&"} manage curb space.
+            An SPA which measure occupancy, analyze demand {"&"} manage curb
+            space.
           </p>
           <div className="flex flex-wrap">
             <p className="btn-tag ">React</p>
@@ -93,7 +128,7 @@ const Project = () => {
             <p className="btn-tag">CSS</p>
           </div>
         </div>
-        <div className="card-col" data-aos="fade-up" data-aos-duration="1000" >
+        <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
           <a href="https://roleplayingame.netlify.app/" target="_blank">
             <img src="role-play.png" alt="" className="img-div" />
           </a>
@@ -103,7 +138,10 @@ const Project = () => {
               <a href="https://roleplayingame.netlify.app/" target="_blank">
                 <BiLinkExternal className="icons" />
               </a>
-              <a href="https://github.com/joestackss/Role-Play-Game" target="_blank">
+              <a
+                href="https://github.com/joestackss/Role-Play-Game"
+                target="_blank"
+              >
                 <BsGithub className="icons" />
               </a>
             </div>
@@ -118,30 +156,8 @@ const Project = () => {
             <p className="btn-tag">Html</p>
           </div>
         </div>
+
         <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
-          <a href="https://globalconvertunits.netlify.app/" target="_blank">
-            <img src="unitcal.png" alt="" className="img-div" />
-          </a>
-          <div className="flex flex-between">
-            <h3>Global Converter </h3>
-            <div>
-              <a href="https://globalconvertunits.netlify.app/" target="_blank">
-                <BiLinkExternal className="icons" />
-              </a>
-              <a href="https://github.com/joestackss/Unit-Converter" target="_blank">
-                <BsGithub className="icons" />
-              </a>
-            </div>
-          </div>
-          <p className="paragraph">
-            A JS web app which converts units like meters, kilogram, etc.
-          </p>
-          <div className="flex flex-wrap">
-            <p className="btn-tag">Javascript</p>
-            <p className="btn-tag">CSS</p>
-          </div>
-        </div>
-        <div className="card-col" data-aos="fade-up" data-aos-duration="1000" >
           <a href="https://crappo-app.netlify.app/" target="_blank">
             <img src="crappo.png" alt="" className="img-div" />
           </a>
@@ -151,7 +167,10 @@ const Project = () => {
               <a href="https://crappo-app.netlify.app/" target="_blank">
                 <BiLinkExternal className="icons" />
               </a>
-              <a href="https://github.com/joestackss/crappo-react" target="_blank">
+              <a
+                href="https://github.com/joestackss/crappo-react"
+                target="_blank"
+              >
                 <BsGithub className="icons" />
               </a>
             </div>
