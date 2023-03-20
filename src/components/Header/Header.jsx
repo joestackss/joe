@@ -8,7 +8,10 @@ const Header = () => {
         <h2 data-aos="fade-up" data-aos-duration="2000">
           Hello, I'm Joseph
         </h2>
-        <h1 data-aos="fade-up" data-aos-duration="2000">
+        <h2 data-aos="fade-up" data-aos-duration="2000">
+          A Top Rated Freelancer, Front End Engineer & Architect.
+        </h2>
+        <h1 data-aos="fade-up" data-aos-duration="2000" offset="200">
           I enjoy <span className="span">building</span> and{" "}
           <span className="span">designing</span> for the web.
         </h1>
