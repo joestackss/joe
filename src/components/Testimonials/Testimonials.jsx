@@ -43,26 +43,77 @@ const Testimonials = () => {
               months already. He knows exactly what to do and he does it well."
             </h3>
             <p className="paragraph">
-              Fay Goldstein
-              <span className="spans">
-                {" "}
-                - Head of communication - Entree Capital
-              </span>
+              Remi Abimbola
+              <span className="spans"> - CEO - KazzipyHub</span>
             </p>
           </div>
           <div
             className="card-col"
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-offset="300"
+            data-aos-offset="400"
           >
             <h3>
-              "Joseph wrote clean codes and worked well in collaboration to make the website look and function as
-              desired."
+              "Joseph wrote clean codes and worked well in collaboration to make
+              the website look and function as desired."
             </h3>
             <p className="paragraph">
-            Uwe Janotta
+              Uwe Janotta
               <span className="spans"> - Ceo {"&"} Founder, Berit</span>
+            </p>
+          </div>
+          <div
+            className="card-col"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="400"
+          >
+            <h3>
+              "Joseph was incredibly responsive, had quick and professional
+              turn around, and was able to complete projects perfectly. He was
+              able to take a vague task and build it into exactly what I needed.
+              "
+            </h3>
+            <p className="paragraph">
+              Fay Goldstein
+              <span className="spans">
+                {" "}
+                - Fmr. Head of communication - Entrée Capital
+              </span>
+            </p>
+          </div>
+
+          <div
+            className="card-col"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="400"
+          >
+            <h3>
+              "Joseph did an excellent job supplying us with various animations
+              that we needed for our project! We will be sure to use his skills
+              once again in the nearest future!"
+            </h3>
+            <p className="paragraph">
+              Viktor Kusmanov
+              <span className="spans"> - Head of Media - Overplay Inc.</span>
+            </p>
+          </div>
+
+          <div
+            className="card-col"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="400"
+          >
+            <h3>
+              "Joseph was amazing! He was always available, replied extremely
+              fast and even provided the first draft of the file on the same day
+              that we opened the contract."
+            </h3>
+            <p className="paragraph">
+              Luka
+              <span className="spans"> - Business Owner.</span>
             </p>
           </div>
         </div>
