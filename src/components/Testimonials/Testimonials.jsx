@@ -78,7 +78,7 @@ const Testimonials = () => {
               Fay Goldstein
               <span className="spans">
                 {" "}
-                - Fmr. Head of communication - Entrée Capital
+                - Fmr. Head of Communication - Entrée Capital
               </span>
             </p>
           </div>
