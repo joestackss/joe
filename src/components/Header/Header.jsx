@@ -13,7 +13,7 @@ const Header = () => {
         </h2>
         <h1 data-aos="fade-up" data-aos-duration="2000" offset="200">
           I enjoy <span className="span">building</span> and{" "}
-          <span className="span">designing</span> for the web.
+          <span className="span">developing</span> SPA & web apps.
         </h1>
         <div data-aos="fade-up" data-aos-duration="2000">
           <a href="#projects">
