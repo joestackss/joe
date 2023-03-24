@@ -22,8 +22,7 @@ function Suvanni() {
 
       <div>
         <p className="paragraph">
-          A web app which provides users with the ability to calculate their
-          shares.
+          Suvanni is a web app designed for stock market enthusiasts. It provides users with the ability to calculate their shares' value and dividend yield.
         </p>
         <div className="flex flex-wrap">
           <p className="btn-tag">React</p>
