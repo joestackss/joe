@@ -19,8 +19,7 @@ function Transferhub() {
           </a> */}
         </div>
       </div>
-      <p className="paragraph">
-        A web app where grass roots players get connected to agents and clubs.
+      <p className="paragraph">A Player Scout web app where grass roots players get connected to agents and clubs.
       </p>
       <div className="flex flex-wrap">
         <p className="btn-tag">React</p>
