@@ -22,7 +22,7 @@ function RealtyView() {
         </div>
         <div>
           <p className="paragraph">
-            A SaaS app where Millions Of Property Records can be searched.
+          RealtyView is a real estate listing search portal for home buyers and real estate agents.
           </p>
           <div className="flex flex-wrap">
             <p className="btn-tag">Next.js</p>
