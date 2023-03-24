@@ -19,9 +19,7 @@ function Crappo() {
           </a> */}
         </div>
       </div>
-      <p className="paragraph">
-        A web app where people can invest in cryptocurrency.
-      </p>
+      <p className="paragraph"> CRAPPO is a web-based app that provides users with the opportunity to invest in cryptocurrencies, allowing them to leverage the potential growth of digital assets.</p
       <div className="flex flex-wrap">
         <p className="btn-tag ">React</p>
         <p className="btn-tag">Javascript</p>
