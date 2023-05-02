@@ -5,14 +5,14 @@ import { BsGithub } from "react-icons/bs";
 function RealtyView() {
   return (
     <div className="card-col" data-aos="fade-up" data-aos-duration="1000">
-      <a href="https://www.realtyview.com/home" target="_blank">
+      <a href="https://www.realtyview.com" target="_blank">
         <img src="Realty-View.png" alt="" className="img-div" />
       </a>
       <div>
         <div className="flex flex-between">
           <h3>Realty View </h3>
           <div>
-            <a href="https://www.realtyview.com/home" target="_blank">
+            <a href="https://www.realtyview.com" target="_blank">
               <BiLinkExternal className="icons" />
             </a>
             {/* <a href="https://github.com/joestackss" target="_blank">
