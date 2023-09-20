@@ -5,7 +5,7 @@ const Tools = () => {
   return (
     <section id="tools" className="container tools__container tools">
       <h2 className="text-white" data-aos="fade-up" data-aos-duration="1000">
-        We’ve got the experience. Here is my toolbelt for success.
+        We’ve got the experience. Here is our toolbelt for success.
       </h2>
       <div className="flex flex-between col-1">
         <div className="inner-col-1" data-aos="zoom-in" data-aos-duration="1000">
