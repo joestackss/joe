@@ -6,13 +6,13 @@ const Header = () => {
     <section id="header" className="container header header__container">
       <div className="heading">
         <h2 data-aos="fade-up" data-aos-duration="2000">
-          Hello, I'm Joseph
+          Expert Vetted Digital
         </h2>
         <h2 data-aos="fade-up" data-aos-duration="2000">
-          A Top Rated Freelancer on Upwork & Front End Engineer.
+          Software Engineering 
         </h2>
         <h1 data-aos="fade-up" data-aos-duration="2000" offset="200">
-          I enjoy <span className="span">building</span> and{" "}
+          We enjoy <span className="span">building</span> and{" "}
           <span className="span">developing</span> SPA & web apps.
         </h1>
         <div data-aos="fade-up" data-aos-duration="2000">
