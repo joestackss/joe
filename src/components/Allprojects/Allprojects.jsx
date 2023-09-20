@@ -20,7 +20,7 @@ const Allprojects = () => {
     >
       <h2>Projects</h2>
       <p className="text-center">
-        I've built cool apps and websites using anything from HTML to React.
+        We've built cool apps and websites using anything from HTML to React.
         Here are some of my favorite projects over the course of my journey.
       </p>
       <div className="card-main margin-bottom-lg ">
