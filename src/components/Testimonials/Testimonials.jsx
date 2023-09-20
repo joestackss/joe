@@ -12,7 +12,7 @@ const Testimonials = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <h2>Why people love my work!</h2>
+        <h2>Why people love our work!</h2>
       </div>
 
       <div className=" card-main flex flex-between margin-bottom-lg ">
@@ -23,9 +23,9 @@ const Testimonials = () => {
             data-aos-duration="1000"
           >
             <h3>
-              "Joseph is so easy to work with. He listened to what I had
-              envisioned and brought it to life. I can’t recommend him enough.
-              I’ll definitely be using him for all my needs."
+              "Expert Vetted is so easy to work with. They listened to what I had
+              envisioned and brought it to life. I can’t recommend them enough.
+              I’ll definitely be using them for all my needs."
             </h3>
             <p className="paragraph">
               Beatriz Alberti
@@ -39,8 +39,8 @@ const Testimonials = () => {
             data-aos-offset="300"
           >
             <h3>
-              "Joseph is my go-to freelancer. I've been working with him for
-              months already. He knows exactly what to do and he does it well."
+              "Expert Vetted is our go-to team. I've been working with them for
+              months already. They knows exactly what to do and they does it well."
             </h3>
             <p className="paragraph">
               Remi Abimbola
@@ -54,7 +54,7 @@ const Testimonials = () => {
             data-aos-offset="400"
           >
             <h3>
-              "Joseph wrote clean codes and worked well in collaboration to make
+              "Expert Vetted wrote clean codes and worked well in collaboration to make
               the website look and function as desired."
             </h3>
             <p className="paragraph">
@@ -69,8 +69,8 @@ const Testimonials = () => {
             data-aos-offset="400"
           >
             <h3>
-              "Joseph was incredibly responsive, had quick and professional
-              turn around, and was able to complete projects perfectly. He was
+              "Expert Vetted were incredibly responsive, had quick and professional
+              turn around, and were able to complete projects perfectly. They were
               able to take a vague task and build it into exactly what I needed.
               "
             </h3>
@@ -90,8 +90,8 @@ const Testimonials = () => {
             data-aos-offset="400"
           >
             <h3>
-              "Joseph did an excellent job supplying us with various animations
-              that we needed for our project! We will be sure to use his skills
+              "Expert Vetted did an excellent job supplying us with various animations
+              that we needed for our project! We will be sure to use their skills
               once again in the nearest future!"
             </h3>
             <p className="paragraph">
@@ -107,7 +107,7 @@ const Testimonials = () => {
             data-aos-offset="400"
           >
             <h3>
-              "Joseph was amazing! He was always available, replied extremely
+              "Expert Vetted were amazing! They were always available, replied extremely
               fast and even provided the first draft of the file on the same day
               that we opened the contract."
             </h3>
