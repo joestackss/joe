@@ -13,7 +13,7 @@ const Project = () => {
     <section id="projects" className="container project project__container">
       <div className="flex flex-between">
         <h2 data-aos="fade-up" data-aos-duration="1000">
-          Here are a few of my favorite projects.
+          Here are a few of our favorite projects.
         </h2>
         <div className="line-div"></div>
       </div>
