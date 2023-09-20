@@ -16,7 +16,7 @@ const Navs = () => {
             <Link to="/">
               <a href="#" className="navbar-brand">
                 {/* <img src="logo.svg" alt="logo" /> */}
-                <h2>Joestackss</h2>
+                <h2>Expert Vetted</h2>
               </a>
             </Link>
             <div
