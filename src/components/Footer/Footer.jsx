@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-col">
           <div className="col-1 crappo-logo">
             {/* <img src="logo.svg" alt="logo" loading="lazy" /> */}
-            <h2>JoeStackss</h2>
+            <h2>Expert Vetted</h2>
           </div>
           <div className="col-2">
             <h3>Quick Link</h3>
