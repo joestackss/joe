@@ -29,18 +29,18 @@ function Footer() {
             <h3>Social</h3>
             <ul>
               <li>
-                <a href="https://github.com/joestackss" target="_blank">
+                <a href="https://github.com/expertvetted" target="_blank">
                   Github
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/joestackss" target="_blank">
+                <a href="https://twitter.com/expertvetted" target="_blank">
                   Twitter
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/joestackss/"
+                  href="https://www.linkedin.com/in/expertvetted/"
                   target="_blank"
                 >
                   Linkedin
@@ -61,22 +61,22 @@ function Footer() {
           <div className="col-1">
             <p>
               © <span id="dateHtml">{new Date().getFullYear()}</span>{" "}
-              Joestackss. All rights reserved -{" "}
-              <span className="text-blue">Made by Joestackss</span>
+              Expert Vetted. All rights reserved -{" "}
+              <span className="text-blue">Made by Expert Vetted</span>
             </p>
           </div>
 
           <div className="col-2 flex">
-            <a href="https://github.com/joestackss" target="_blank">
+            <a href="https://github.com/expertvetted" target="_blank">
               <BsGithub className="icons" />
             </a>
-            <a href="https://twitter.com/joestackss " target="_blank">
+            <a href="https://twitter.com/expertvetted " target="_blank">
               <BsTwitter className="icons" />
             </a>
-            <a href="https://www.instagram.com/stacksjoeh/" target="_blank">
+            <a href="https://www.instagram.com/expertvetted/" target="_blank">
               <BsInstagram className="icons" />
             </a>
-            <a href="https://www.linkedin.com/in/joestackss/" target="_blank">
+            <a href="https://www.linkedin.com/in/expertvetted/" target="_blank">
               <BsLinkedin className="icons" />
             </a>
           </div>
